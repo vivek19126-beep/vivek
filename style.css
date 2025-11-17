@@ -1,0 +1,144 @@
+/* body Styles */
+body 
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+}
+
+/* Header & Navigation */
+header 
+{
+    background-color: #e63946;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul 
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover, .active {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero 
+{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffddd2;
+}
+
+.btn 
+{
+    display: inline-block;
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn:hover 
+{
+    background-color: #d62828;
+}
+
+/* Menu Page */
+.menu 
+{
+    text-align: center;
+    padding: 40px;
+}
+
+.menu-items 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item 
+{
+    background-color: #f1faee;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.item h3 
+{
+    color: #e63946;
+}
+
+/* About Page */
+.about 
+{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Contact Page */
+.contact 
+{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+form 
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+input, textarea 
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button 
+{
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover 
+{
+    background-color: #d62828;
+}
+
+/* Footer */
+footer 
+{
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
